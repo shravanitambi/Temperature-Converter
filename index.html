@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <br>
+    <section id="container">
+        <h1>Temperature Conveter</h1>
+        <div id="temp_input_section">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+            <label for="celsius">Celsius:</label>
+            <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+        </div>
+        <div id="controls">
+            <button id="convert" onclick="tempConvert()">Convert!</button>
+            <button id="clear" onclick="clearForm()">Reset</button>
+        </div>
+    </section>
+</body>
+</html>
